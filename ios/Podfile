@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'Runner' do
+  # Other pods...
+  pod 'razorpay_flutter', :path => '../.symlinks/plugins/razorpay_flutter/ios'
+end
